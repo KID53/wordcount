@@ -1,0 +1,40 @@
+﻿生成启动时间为 2020/3/22 11:21:59。
+     1>项目“E:\VSProgram\zifu\zifu\zifu.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\zifu.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt geshu.c
+         geshu.c
+     1>e:\vsprogram\zifu\zifu\geshu.c(8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\vs2010\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\vsprogram\zifu\zifu\geshu.c(23): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\vs2010\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\vsprogram\zifu\zifu\geshu.c(42): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\vs2010\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\vsprogram\zifu\zifu\geshu.c(63): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\vs2010\vc\include\stdio.h(304) : 参见“scanf”的声明
+     1>e:\vsprogram\zifu\zifu\geshu.c(68): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\vs2010\vc\include\stdio.h(304) : 参见“scanf”的声明
+     1>e:\vsprogram\zifu\zifu\geshu.c(73): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\vs2010\vc\include\stdio.h(304) : 参见“scanf”的声明
+     1>e:\vsprogram\zifu\zifu\geshu.c(78): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\vs2010\vc\include\stdio.h(304) : 参见“scanf”的声明
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         e:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VSProgram\zifu\Debug\zifu.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\zifu.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\VSProgram\zifu\Debug\zifu.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VSProgram\zifu\Debug\zifu.lib" /MACHINE:X86 Debug\zifu.exe.embed.manifest.res
+         Debug\geshu.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\zifu.exe.embed.manifest" /manifest Debug\zifu.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         zifu.vcxproj -> E:\VSProgram\zifu\Debug\zifu.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\zifu.unsuccessfulbuild”。
+         正在对“Debug\zifu.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\VSProgram\zifu\zifu\zifu.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.20
